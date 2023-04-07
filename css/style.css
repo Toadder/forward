@@ -2014,7 +2014,7 @@ body.lock {
   transform: translate(-50%, -50%);
   background: linear-gradient(98.24deg, #6ddcff 0%, #7f60f9 100%);
   filter: blur(105px);
-  z-index: -1;
+  z-index: 1;
 }
 
 .products {
@@ -3550,6 +3550,8 @@ body.lock {
   .intro__content {
     flex: 0 0 auto;
     width: 100%;
+    position: relative;
+    z-index: 2;
   }
 
   .intro__img {
